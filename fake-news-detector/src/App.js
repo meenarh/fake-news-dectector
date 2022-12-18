@@ -1,5 +1,4 @@
 import "./App.css";
-import toast from "react-hot-toast";
 import { useState } from "react";
 
 function App() {
@@ -14,9 +13,9 @@ function App() {
   const newsCheck = () => {
     return links.map((item) => {
       if (item.toLowerCase().includes(news.toLowerCase())) {
-        return toast.success("This news is confirmed to be TRUE");
+        alert("This news is confirmed to be TRUE!!!");
       } else {
-        return toast.error("This news is confirmed to be FAKE!!!");
+        alert("This news is confirmed to be TRUE!!!")
       }
     });
   };
