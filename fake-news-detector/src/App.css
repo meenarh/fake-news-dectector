@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input {
+  margin-top: 20%;
+  width: 500px;
+  height: 70px;
+  border: 1px solid #777777;
+  border-radius: 12px;
+  padding: 10px;
+  outline: none;
+}
+
+section button{
+  width: 100px;
+  height: 50px;
+  background: #777777;
+  color: #FFFFFF;
+  margin: 10px;
+  border-radius: 10px;
+}
