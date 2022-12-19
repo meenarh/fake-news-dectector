@@ -2,12 +2,13 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
+  //an array
   const links = [
-    "https://punchng.com/pdp-fate-uncertain-as-party-g5-govs-face-off-lingers/",
-    "https://punchng.com/fayose-olujimis-names-missing-as-pdp-names-ekiti-pcc/",
-    "https://www.vanguardngr.com/2022/11/asuu-fg-face-off-not-yet-over-lecturers/",
-    "https://www.nytimes.com/live/2022/12/18/sports/argentina-france-world-cup-final-score",
-    "https://guardian.ng/sport/argentina-beat-france-on-penalties-to-win-world-cup/",
+    "https://www.politifact.com/factchecks/2022/dec/16/viral-image/katie-porter-didnt-call-pedophilia-an-identity/",
+    "https://www.politifact.com/factchecks/2022/dec/16/tammy-baldwin/yes-wage-gap-does-have-big-impact-latina-workers/",
+    "https://www.politifact.com/truth-o-meter/promises/biden-promise-tracker/promise/1526/invest-300-million-cops-program/",
+    "https://www.politifact.com/factchecks/2022/dec/16/viral-image/no-these-images-dont-show-politicians-acting-inapp/",
+    "https://www.politifact.com/factchecks/2022/dec/16/instagram-posts/claims-80-canadian-doctors-died-because-covid-19-v/",
   ];
 
   const [news, setNews] = useState("");
